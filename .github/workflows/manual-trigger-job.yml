@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install Azure CLI ML extension
+      - name: Install Azure ML extension
         run: az extension add -n ml
 
       - name: Run Azure Machine Learning training job
